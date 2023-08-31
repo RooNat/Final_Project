@@ -1,0 +1,125 @@
+timestep,features,google_trends_lag,tweet_volume_lag,tweet_polarity_score_lag,batch_size,neurons,layers,mean_down_f1_score,mean_up_f1_score,mean_acc,min_acc,max_acc,diff_acc,optimizer
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,32,1,0.584332158,0.467395263,0.533101045,0.522648084,0.536585366,0.013937282,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,32,1,0.565608247,0.504971252,0.53728223,0.531939605,0.542392567,0.010452962,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,32,1,0.56061216,0.536497384,0.548896632,0.542392567,0.555168409,0.012775842,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,32,2,0.589008038,0.467380179,0.536353078,0.524970964,0.547038328,0.022067364,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,32,2,0.569681727,0.500220736,0.537746806,0.531939605,0.544715447,0.012775842,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,32,2,0.567490816,0.523316357,0.546806039,0.536585366,0.55981417,0.023228804,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,32,3,0.587814585,0.427092076,0.521022067,0.513356562,0.529616725,0.016260163,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,32,3,0.577523437,0.467739281,0.529152149,0.520325203,0.540069686,0.019744483,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,32,3,0.558736361,0.509849708,0.535656214,0.523809524,0.554006969,0.030197445,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,64,1,0.59001235,0.432059948,0.524041812,0.515679443,0.530778165,0.015098722,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,64,1,0.579604854,0.493327271,0.540534262,0.530778165,0.548199768,0.017421603,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,64,1,0.567484752,0.525706991,0.547735192,0.543554007,0.552845528,0.009291521,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,64,2,0.591232951,0.448398529,0.530545877,0.522648084,0.537746806,0.015098722,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,64,2,0.594757064,0.470696443,0.541231127,0.535423926,0.551684088,0.016260163,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,64,2,0.590154638,0.474125948,0.539372822,0.530778165,0.547038328,0.016260163,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,64,3,0.562248214,0.481559783,0.525900116,0.512195122,0.547038328,0.034843206,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,64,3,0.578827774,0.430862874,0.516840883,0.512195122,0.522648084,0.010452962,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,64,3,0.586989483,0.441150862,0.52543554,0.514518002,0.542392567,0.027874564,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,32,1,0.576019224,0.469705539,0.528919861,0.523809524,0.535423926,0.011614402,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,32,1,0.563862549,0.506171415,0.536817654,0.533101045,0.545876887,0.012775842,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,32,2,0.594923363,0.470503714,0.541231127,0.529616725,0.549361208,0.019744483,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,32,2,0.582056786,0.50571532,0.547270616,0.541231127,0.551684088,0.010452962,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,32,3,0.59044102,0.445097667,0.529152149,0.520325203,0.536585366,0.016260163,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,32,3,0.571440665,0.478302352,0.529849013,0.516840883,0.544715447,0.027874564,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,64,1,0.594818913,0.440618887,0.530081301,0.526132404,0.536585366,0.010452962,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,64,1,0.579353682,0.486777962,0.537746806,0.533101045,0.543554007,0.010452962,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,64,2,0.604721864,0.433659933,0.534494774,0.518002323,0.544715447,0.026713124,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,64,2,0.595372429,0.470512175,0.541463415,0.540069686,0.543554007,0.003484321,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,30,64,3,0.555116332,0.47070799,0.517073171,0.507549361,0.531939605,0.024390244,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,64,3,0.559852554,0.467945419,0.518466899,0.506387921,0.526132404,0.019744483,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,32,1,0.384630758,0.621507302,0.537049942,0.512195122,0.557491289,0.045296167,<keras.optimizers.optimizer_v2.rmsprop.RMSprop object at 0x28283ca00>
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,32,1,0.608186499,0.346812931,0.512195122,0.505226481,0.518002323,0.012775842,<keras.optimizers.optimizer_v2.rmsprop.RMSprop object at 0x28283ca00>
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,32,2,0.369910914,0.624119527,0.531707317,0.523809524,0.541231127,0.017421603,<keras.optimizers.optimizer_v2.rmsprop.RMSprop object at 0x28283ca00>
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,32,2,0.561457627,0.461399273,0.523577236,0.507549361,0.536585366,0.029036005,<keras.optimizers.optimizer_v2.rmsprop.RMSprop object at 0x28283ca00>
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,64,1,0.297695757,0.647364489,0.531939605,0.523809524,0.543554007,0.019744483,<keras.optimizers.optimizer_v2.rmsprop.RMSprop object at 0x28283ca00>
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,64,1,0.617987654,0.28793916,0.508246225,0.495934959,0.519163763,0.023228804,<keras.optimizers.optimizer_v2.rmsprop.RMSprop object at 0x28283ca00>
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,64,64,2,0.346602696,0.625481277,0.528455285,0.521486643,0.540069686,0.018583043,<keras.optimizers.optimizer_v2.rmsprop.RMSprop object at 0x28283ca00>
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,64,2,0.56778012,0.449054924,0.522648084,0.514518002,0.528455285,0.013937282,<keras.optimizers.optimizer_v2.rmsprop.RMSprop object at 0x28283ca00>
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,32,1,0.55732974,0.541296475,0.549593496,0.542392567,0.55981417,0.017421603,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,32,1,0.563039673,0.543066727,0.553310105,0.547038328,0.56213705,0.015098722,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,32,2,0.564531375,0.54365122,0.554936121,0.542392567,0.56445993,0.022067364,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,32,2,0.556430814,0.542989649,0.550058072,0.537746806,0.55981417,0.022067364,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,64,1,0.55656853,0.513087733,0.535888502,0.528455285,0.540069686,0.011614402,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,64,1,0.559351082,0.529951236,0.545180023,0.543554007,0.548199768,0.004645761,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,80,64,2,0.587225503,0.455377428,0.531010453,0.522648084,0.551684088,0.029036005,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,64,2,0.569170789,0.520003138,0.546109175,0.535423926,0.555168409,0.019744483,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,32,1,0.55503071,0.539597749,0.547502904,0.531939605,0.56329849,0.031358885,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,120,32,1,0.557323174,0.545880557,0.551684088,0.548199768,0.556329849,0.008130081,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,32,2,0.557795978,0.52802502,0.543554007,0.535423926,0.556329849,0.020905923,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,120,32,2,0.555326575,0.547383153,0.5514518,0.540069686,0.556329849,0.016260163,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,32,1,0.56239004,0.542958926,0.553077816,0.544715447,0.56329849,0.018583043,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,200,32,1,0.559330657,0.546498497,0.553077816,0.544715447,0.567944251,0.023228804,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,32,2,0.547636075,0.540704483,0.544250871,0.537746806,0.552845528,0.015098722,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,200,32,2,0.556927255,0.546481265,0.551916376,0.544715447,0.558652729,0.013937282,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,32,1,0.55878299,0.536326203,0.547851336,0.538908246,0.56097561,0.022067364,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,200,32,1,0.55864235,0.550885731,0.554819977,0.549361208,0.56097561,0.011614402,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,300,32,1,0.553725206,0.536558041,0.545412311,0.535423926,0.558652729,0.023228804,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,100,32,2,0.558351859,0.527414215,0.543554007,0.527293844,0.551684088,0.024390244,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,200,32,2,0.554357768,0.54219967,0.548432056,0.541231127,0.556329849,0.015098722,adam
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,300,32,2,0.552476971,0.528189766,0.540998839,0.516840883,0.556329849,0.039488966,adam
+10,['Label' 'Close'],10,28,15,200,32,1,0.507156585,0.559690866,0.534918794,0.524361949,0.542923434,0.018561485,adam
+15,['Label' 'Close'],10,28,15,200,32,1,0.532670787,0.549654935,0.541347271,0.533101045,0.548199768,0.015098722,adam
+10,['Label' 'Close'],10,28,15,200,32,1,0.511088058,0.559792627,0.536774942,0.531322506,0.546403712,0.015081206,adam
+15,['Label' 'Close'],10,28,15,200,32,1,0.529292123,0.545819954,0.537746806,0.522648084,0.545876887,0.023228804,adam
