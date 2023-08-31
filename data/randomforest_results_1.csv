@@ -1,0 +1,8 @@
+timestep,features,google_trends_lag,tweet_volume_lag,tweet_polarity_score_lag,best_estimators,down_f1_score,up_f1_score,acc
+11,['Label' 'Close' 'Volume'],10,28,15,"{'max_depth': 10, 'n_estimators': 700}",0.544232923,0.509047045,0.527293844
+11,"['Label' 'Close' 'Volume' 'google_trends_lag' 'tweet_volume_lag'
+ 'tw_polarity']",10,28,15,"{'max_depth': 10, 'n_estimators': 700}",0.5181119648737651,0.4586929716399506,0.4901277584204414
+15,['Label' 'Close' 'Volume'],10,28,15,"{'max_depth': 20, 'n_estimators': 700}",0.5186020293122886,0.4886227544910179,0.5040650406504065
+15,['Label' 'Close' 'Volume'],10,28,15,"{'max_depth': 20, 'n_estimators': 700}",0.5186020293122886,0.4886227544910179,0.5040650406504065
+10,['Label' 'Close'],10,28,15,"{'max_depth': 10, 'n_estimators': 300}",0.5388127853881278,0.5235849056603774,0.531322505800464
+15,['Label' 'Close'],10,28,15,"{'max_depth': 10, 'n_estimators': 300}",0.5232558139534883,0.5243619489559165,0.5238095238095238
